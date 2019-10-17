@@ -31,7 +31,19 @@ Questions answered are:
     * Earliest, most recent, and most common year of birth (only available for NYC and Chicago)
 
 ### Files used
-Include the files used
+* bikeshare_2.py
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The resources used to complete this project were:
+
+* How to handle Washington DC data that does not have gender or birth year information:
+    * https://knowledge.udacity.com/questions/55524
+
+
+* How to display DataFrame data for user review using .iloc:
+    * https://stackoverflow.com/questions/31593201/how-are-iloc-ix-and-loc-different
+    * https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html
+    * https://www.geeksforgeeks.org/python-extracting-rows-using-pandas-iloc/
