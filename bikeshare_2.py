@@ -4,7 +4,7 @@ import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+              'washington dc': 'washington.csv' }
 
 def get_filters():
     """
@@ -21,12 +21,12 @@ def get_filters():
 
     # get user input for city (chicago, new york city, washington).
     # HINT: Use a while loop to handle invalid inputs
-    city = str(input('Enter a city (Chicago, New York City, or Washington): ').lower())
+    city = str(input('Enter a city (Chicago, New York City, or Washington DC): ').lower())
 
-    while city not in ['chicago', 'new york city', 'washington']:
+    while city not in ['chicago', 'new york city', 'washington dc']:
         print('-'*40)
         print('\n\nYou did not enter a valid city.')
-        city = str(input('Enter a city (Chicago, New York City, or Washington): ').lower())
+        city = str(input('Enter a city (Chicago, New York City, or Washington DC): ').lower())
 
 
     # get user input for month (all, january, february, ... , june)
