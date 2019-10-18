@@ -233,7 +233,7 @@ def data_disp(df):
 
     Returns:
         Number of rows in the DataFrame and what rows are displayed at a given time.
-        DataFrame used for the anaysis, displayed 5 rows at a time.
+        DataFrame is displayed 5 rows at a time.
     """ 
     interval = 5
     start_line = 0
