@@ -7,7 +7,7 @@
 Explore US Bikeshare Data
 
 ### Description
-This project uncovers bike share usage patterns using data provided by Motivate, a bike share system provider for many major cities in the United States. A variety of descriptive statistics are computed in order to learn about bike share usage in Chicago, New York City, and Washington.
+This project uncovers bike share usage patterns using data provided by Motivate, a bike share system provider for many major cities in the United States. A variety of descriptive statistics are computed in order to learn about bike share usage in Chicago, New York City, and Washington during the time period of January through June 2017.
 
 Questions answered are:
 
