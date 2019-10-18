@@ -130,7 +130,7 @@ def time_stats(df):
     print('Most Frequent Start Hour: {}:00'.format(popular_hour))    
     
     
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('\nThis took %s seconds.' % (time.time() - start_time))
     print('-'*40)
 
 
@@ -159,7 +159,7 @@ def station_stats(df):
     print('Most Common Trip:', popular_trip)
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('\nThis took %s seconds.' % (time.time() - start_time))
     print('-'*40)
 
 
@@ -183,7 +183,7 @@ def trip_duration_stats(df):
     print('Average Travel Time: {} minutes'.format(round(avg_trav_min, 2)))
     
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('\nThis took %s seconds.' % (time.time() - start_time))
     print('-'*40)
 
 
@@ -206,7 +206,7 @@ def user_stats(df):
         user_gender = df['Gender'].value_counts()
         print('\n\nCounts of User Gender:\n\n', user_gender.to_string())
     else:
-        print("\n\nUser Gender data not available for this city")
+        print('\n\nUser Gender data not available for this city')
 
 
     # Display earliest, most recent, and most common year of birth
@@ -220,10 +220,10 @@ def user_stats(df):
         popular_by = df['Birth Year'].mode()[0]
         print('Most Common Birth Year:', int(popular_by))
     else:
-        print("\n\nUser Birth Year data not available for this city")
+        print('\n\nUser Birth Year data not available for this city')
 
 
-    print("\n\nThis took %s seconds." % (time.time() - start_time))
+    print('\n\nThis took %s seconds.' % (time.time() - start_time))
     print('-'*40)
 
 
